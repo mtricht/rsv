@@ -8,11 +8,31 @@ The official specification is as follows:
 2. Rows are separated by a comma
 3. Escaping is not possible
 
-## Examples
+## Example
 
-An example .rsv file can be found [here](example.rsv).
+```
+name
+age
+gender
+country,Michael
+24
+M
+Belgium,Sven
+28
+M
+Zimbabwe,Mara
+24
+F
+Uganda,Peter
+24
+M
+```
 
-This repository also contains a small go implementation of this awesome new file format. The program outputs:
+View the full example file [here](example.rsv).
+
+## Reference implementation
+
+As this new file format can be hard to fathom for the simple human minds, this repository contains a reference implementation written in go. This reference implementation reads the `examples.rsv` and outputs this to stdout:
 
 ```
 ➜ go run main.go
