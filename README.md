@@ -26,13 +26,14 @@ F
 Uganda,Peter
 24
 M
+Belgium
 ```
 
 View the full example file [here](example.rsv).
 
 ## Reference implementation
 
-As this new file format can be hard to fathom for the simple human minds, this repository contains a reference implementation written in go. This reference implementation reads the `examples.rsv` and outputs this to stdout:
+As this new file format can be hard to fathom, this repository also contains a reference implementation written in go. This reference implementation reads the `examples.rsv` and outputs the following to stdout:
 
 ```
 ➜ go run main.go
